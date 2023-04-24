@@ -25,3 +25,23 @@ nav ul {
 	display: flex;
 	list-style: none;
 }
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #444;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover {
+	color: #3d9970;
+}
+
+/* Main styles */
+main {
+	padding: 2rem;
+}
