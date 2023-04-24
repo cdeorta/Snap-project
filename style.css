@@ -94,3 +94,40 @@ section h2 {
 	transition: all 0.3s ease-in-out;
   }
 
+  /* Contact form styles */
+
+  .contact {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+  }
+  
+  .contact h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-align: center;
+  }
+  
+  .contact form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 600px;
+  }
+  
+  .form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+  }
+  
+  .form-group label {
+	color: #555;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+  }
+  
+  
+  
+  
