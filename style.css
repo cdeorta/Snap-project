@@ -5,3 +5,23 @@
 	box-sizing: border-box;
 	font-family: 'Helvetica Neue', sans-serif;
 }
+
+/* Header styles */
+header {
+	background-color: #f7f7f7;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #444;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
