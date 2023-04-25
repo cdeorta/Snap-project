@@ -55,6 +55,30 @@ section h2 {
 	margin-bottom: 1.5rem;
 }
 
+/* About styles */
+
+#about {
+    background-color: #f9f9f9;
+    padding: 80px;
+  }
+
+  #about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  #about p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+
 .services-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -221,3 +245,21 @@ section h2 {
 	margin-right: 10px;
   }
 
+  .status {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f9f9f9;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 20px 0;
+  }
+  
+  .status p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
+  }
