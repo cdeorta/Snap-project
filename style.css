@@ -162,4 +162,21 @@ section h2 {
 	background-color: #d34765;
   }
   
-  
+  /* Review gallary styles*/
+
+  .review-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+  .review {
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	box-shadow: 0 0 10px #ccc;
+	text-align: center;
+  }
