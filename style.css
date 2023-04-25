@@ -187,3 +187,37 @@ section h2 {
 	object-fit: cover;
 	border-radius: 50%;
   }
+
+  /* Hours section */
+
+  .hours {
+	background-color: #f6f6f6;
+	padding: 50px;
+	margin-bottom: 50px;
+  }
+  
+  .hours h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .hours ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .hours li {
+	font-size: 24px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .hours .day {
+	font-weight: bold;
+	margin-right: 10px;
+  }
+
